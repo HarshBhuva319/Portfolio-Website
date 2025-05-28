@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(to bottom right, #0d0d1a, #1a0933);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#home{
+    padding-bottom: 50px;
+    padding-top: 90px;
+}
+.my-heading span {
+    color: #c084fc;
+}
+.cursor {
+    display: inline-block;
+    width: 3px;
+    height: 1em;
+    background-color: #c084fc;
+    animation: blink 1s step-start infinite;
+    margin-left: 3px;
+}
+
+.home_image{
+    width: 500px;
+}

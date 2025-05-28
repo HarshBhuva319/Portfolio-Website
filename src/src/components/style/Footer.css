@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+.footer {
+        background-color: #0d0d1a;
+
+  }
+@media (max-width:320px){
+  .row{
+    text-align: center;
+  }
+}
+@media (max-width:370px){
+  .row{
+    text-align: center;
+  }
+}
+@media (max-width:768px){
+  .row{
+    text-align: center;
+  }
+}
+  

@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+.section--title{
+    font-size: 40px;
+}
+.download-btn {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #623686 !;
+}
+.resume-img{
+    max-width: 60%;
+
+}

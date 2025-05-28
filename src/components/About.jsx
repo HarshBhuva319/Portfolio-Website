@@ -1,23 +1,32 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./style/About.css";
 import emoji from "../images/emoji.webp"
+import Gamete from './Gamete';
+import { themeContext } from '../context';
 
 const About = () => {
+    
+    // let v = useContext(themeContext)
+    
+    // console.log(v);
+    
     return (
+      
         <div id="about">
+              {/* {v.btn} */}
             <section className="section-2 container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
-                        <h1><span className="text-white">LET ME</span> <span className="purple">INTRODUCE</span>  <span className="text-white">MYSELF</span></h1><br />
+                        <h1 className='about-title'><span className="text-white">LET ME</span> <span className="purple">INTRODUCE</span>  <span className="text-white">MYSELF</span></h1><br />
 
-                        <p className='fs-5'>Hi Everyone, I am <span className="highlight">Harsh Bhuva</span> from <span className="highlight">Ahmedabad, India.</span></p>
+                        <p className='fs-5 details'>Hi Everyone, I am <span className="highlight">Harsh Bhuva</span> from <span className="highlight">Ahmedabad, India.</span></p>
 
-                        <p className='fs-5'>I have completed B.Tech in <span className="highlight">Computer Science and Engineering </span>at <span className="highlight">Vidush Somany Institute of Technology and Research Gandhinagar</span>.</p>
+                        <p className='fs-5 details'>I have completed B.Tech in <span className="highlight">Computer Science and Engineering </span>at <span className="highlight">Vidush Somany Institute of Technology and Research Gandhinagar</span>.</p>
 
-                        <p className='fs-5'>I am currently employed as a <span className="highlight">Front - End developer</span> at <span
+                        <p className='fs-5 details'>I am currently employed as a <span className="highlight">Front - End developer</span> at <span
                             className="highlight">Amar InfoTech.</span></p>
 
-                        <p className='fs-5'>Apart from coding, some other activities that I love to do!</p>
+                        <p className='details fs-5'>Apart from coding, some other activities that I love to do!</p>
 
                         <div className="activities" style={{ paddingLeft: "30px", fontSize: "19px" }}>
                             <p><i className="fas fa-hand-point-right"></i> Playing Games</p>

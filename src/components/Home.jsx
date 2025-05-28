@@ -2,7 +2,7 @@ import "./style/Home.css";
 import home_image from "../images/home-photo.png"
 
 const Home = () => {
-    const words = ["Web Developer", "Front - End Developer"];
+    const words = ["React Js Developer", "Frontend Developer"];
     let i = 0;
     let j = 0;
     let currentWord = '';

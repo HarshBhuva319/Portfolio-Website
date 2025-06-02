@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(to bottom right, #0d0d1a, #1a0933);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: #0d0d1a;
+    width: 100%;
+    z-index: 1000;
+}  
+.navbar-brand {
+    color: #c084fc;
+}
+#logo{
+    height: 70px;
+    width: 70px;
+}
+.nav-item{
+    font-size: 20px;
+}
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 1rem;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c084fc;
+}
+
+.btn-purple {
+    background-color: #6c2bd9;
+}
+

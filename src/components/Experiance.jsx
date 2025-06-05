@@ -11,7 +11,7 @@ const Experiance = () => {
         },
         {
             title: "Amar Infotech",
-            description: "Front - End Developer",
+            description: "Frontend React Js Developer",
             technologies: "HTML, CSS, Bootstrap, Javascript, React js",
             date: "December 2024 to Present"
         },

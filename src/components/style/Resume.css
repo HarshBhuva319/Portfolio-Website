@@ -9,7 +9,9 @@ html {
     margin: 20px 0;
     background-color: #623686 !;
 }
+.resume{
+    /* max-width: 10%; */
+}
 .resume-img{
-    max-width: 60%;
-
+    max-width: 100%;
 }

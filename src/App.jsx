@@ -31,6 +31,7 @@ function App() {
   if (loading) {
     return <Loading />;
   }
+
   return (
     <>
       <Navbar></Navbar>

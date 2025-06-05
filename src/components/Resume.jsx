@@ -1,6 +1,7 @@
 import React from 'react'
 import './style/Resume.css'
-import resume from '../images/Harsh Bhuva_Resume.jpg'
+import resume_page_1 from '../images/Harsh_Bhuva_Resume_page-0001.jpg'
+import resume_page_2 from '../images/Harsh_Bhuva_Resume_page-0002.jpg'
 
 const Resume = () => {
     return (
@@ -17,8 +18,15 @@ const Resume = () => {
                 </div>
             </div>
 
-            <div className="container pt-5 pb-5 d-flex justify-content-center">
-                <img src={resume} alt="Resume" className='resume-img'/>
+            <div className="resume container pt-5 pb-5 gap-4 d-flex justify-content-center">
+                <div className="row">
+                    <div className="col-lg-6 col-sm-12 p-2">
+                        <img src={resume_page_1} alt="Resume" className='resume-img'/>
+                    </div>
+                    <div className="col-lg-6 col-sm-12 p-2">
+                        <img src={resume_page_2} alt="Resume" className='resume-img'/>
+                    </div>
+                </div>
             </div>
 
             <div className="container text-center pb-5">

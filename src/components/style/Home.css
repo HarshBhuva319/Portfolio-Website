@@ -25,3 +25,21 @@ body {
 .home_image{
     width: 500px;
 }
+@media (max-width: 768px) {
+    #typing{
+        font-size: 35px;
+    }
+    .home_image{
+        width:300px;
+    }
+}
+
+@media (max-width: 320px) {
+    #typing{
+        font-size: 30px;
+    }
+    .home_image{
+        width:300px;
+    }
+}
+

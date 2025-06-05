@@ -26,7 +26,7 @@ const Navbar = () => {
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <button className="nav-link" href="#">
-                                <a href="#" style={{textDecoration:"none", color:"white"}}>
+                                <a href="#" style={{textDecoration:"none", color:"white"}} >
                                 <i className="fas fa-home"></i> Home
                                 </a>
                             </button>

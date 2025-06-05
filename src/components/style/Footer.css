@@ -2,22 +2,35 @@ html {
   scroll-behavior: smooth;
 }
 .footer {
-        background-color: #0d0d1a;
+  background-color: #0d0d1a;
+  color: white;
+  padding: 40px 0;
+}
 
-  }
-@media (max-width:320px){
-  .row{
-    text-align: center;
-  }
+.footer a {
+  color: #ccc;
+  text-decoration: none;
 }
-@media (max-width:370px){
-  .row{
-    text-align: center;
-  }
+
+.footer a:hover {
+  color: #fff;
 }
-@media (max-width:768px){
-  .row{
-    text-align: center;
-  }
+
+.social-icons a {
+  margin-right: 15px;
+  font-size: 25px;
+  color: #ccc;
 }
-  
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #555;
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}

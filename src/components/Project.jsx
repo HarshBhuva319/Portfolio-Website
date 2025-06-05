@@ -23,7 +23,6 @@ const Project = () => {
                 </p><br />
                 <p><span className='highlights'>Technologies</span> :- HTML, CSS, Javascript</p>
                 <a href="https://github.com/HarshBhuva319/WanderWise" className="btn btn-custom" target='blank'><i className="fab fa-github"></i> GitHub</a>
-                {/* <a href="#" className="btn btn-custom"><i className="fas fa-desktop"></i> Demo</a> */}
               </div>
             </div>
 
@@ -37,7 +36,6 @@ const Project = () => {
                 </p><br />
                 <p><span className='highlights'>Technologies</span> :- HTML, CSS, Bootstrap</p>
                 <a href="https://github.com/HarshBhuva319/Urban-Food" className="btn btn-custom" target='blank'><i className="fab fa-github"></i> GitHub</a>
-                {/* <a href="#" className="btn btn-custom"><i className="fas fa-desktop"></i> Demo</a> */}
               </div>
             </div>
 
@@ -47,8 +45,7 @@ const Project = () => {
                 <img src={Portfolio} alt="Portfolio" className="project-img" />
                 <h5 className='highlights pt-3 fs-4'>Portfolio Website</h5>
                 <p className="project-description pt-2">
-                  An online markdown editor built with React.js. Supports HTML, CSS, and JS preview, GFM syntax,
-                  auto-save with LocalStorage, and custom toolbar.
+                  This portfolio website serves as a visual representation of my web development skills and projects.    <br /><br />
                 </p><br />
                 <p><span className='highlights'>Technologies</span> :- HTML, CSS, Bootstrap, React js</p>
                 <a href="#" className="btn btn-custom"><i className="fab fa-github" target='blank'></i> GitHub</a>

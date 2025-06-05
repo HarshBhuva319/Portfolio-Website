@@ -2,7 +2,7 @@ import "./style/Home.css";
 import home_image from "../images/home-photo.png"
 
 const Home = () => {
-    const words = ["Web Developer", "Front - End Developer"];
+    const words = ["React Js Developer", "Frontend Developer"];
     let i = 0;
     let j = 0;
     let currentWord = '';
@@ -51,20 +51,20 @@ const Home = () => {
 
     return (
         <>
-            <section id='home'>
+            <div id='home'>
                 <div className="container">
                     <div className="row">
-                        <div className="col d-flex flex-column justify-content-center align-items-center">
+                        <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
                             <h3>Hi There!<span>👋🏻</span></h3>
-                            <h1 className="fw-bold ">I'M <span>HARSH BHUVA</span></h1>
+                            <h1 className="fw-bold fs-1">I'M <span>HARSH BHUVA</span></h1>
                             <h1><span className="highlight fw-bold" id="typing">WEB DEVELOPER</span><span className="cursor"></span></h1>
                         </div>
-                        <div className="col d-flex justify-content-center align-items-center">
+                        <div className="col-lg-6 d-flex justify-content-center align-items-center">
                             <img src={home_image} alt="" className='home_image' />
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
     )
 }

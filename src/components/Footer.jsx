@@ -10,52 +10,58 @@ const Footer = () => {
     };
     return (
         <>
-            <div className="footer container-fluid">
-                <div className="row d-flex justify-content-center p-4">
-                    <div className="col-lg-5 col-md-12 ps-3 pt-3">
-                        <p>Designed and Developed by Harsh Bhuva</p>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <h5>About</h5>
+                            <p>Front-End Developer passionate about modern web experiences and responsive design.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h5>Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <button className="nav-link" href="#">
+                                    <a href="#" style={{ textDecoration: "none", color: "white" }}>
+                                        Home
+                                    </a>
+                                </button>
+                                <button className="nav-link" href="#about" onClick={() => scrollToSection('about')}>
+                                    About
+                                </button>
+                                <button className="nav-link" href="#project" onClick={() => scrollToSection('project')}>
+                                    Projects
+                                </button>
+                                <button className="nav-link" href="#experiance" onClick={() => scrollToSection('experiance')}>
+                                    Experiance
+                                </button>
+                                <button className="nav-link" href="#resume" onClick={() => scrollToSection('resume')}>
+                                    Resume
+                                </button>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h5>Contact</h5>
+                            <p>Email : harshbhuva319@gmail.com</p>
+                            <p>Mobile No : +91 6353336471</p>
+                            <div class="social-icons">
+                                <a href="https://github.com/HarshBhuva319" target='blank'>
+                                    <i className="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/harsh-bhuva-4a35371ba/" target='blank'>
+                                    <i className="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-12 ps-5 pt-3">
-                        <p>Copyright © 2025 HB</p>
-                    </div>
-
-                    <div className=' col-lg-4 col-md-12 d-flex justify-content-evenly'>
-                        <button className="nav-link" href="#">
-                            <a href="#" style={{textDecoration:"none", color:"white"}}>
-                            Home
-                            </a>
-                        </button>
-                        <button className="nav-link" href="#about" onClick={() => scrollToSection('about')}>
-                            About
-                        </button>
-                        <button className="nav-link" href="#project" onClick={() => scrollToSection('project')}>
-                            Projects
-                        </button>
-                        <button className="nav-link" href="#experiance" onClick={() => scrollToSection('experiance')}>
-                            Experiance
-                        </button>
-                        <button className="nav-link" href="#resume" onClick={() => scrollToSection('resume')}>
-                            Resume
-                        </button>
+                    <div class="footer-bottom mt-4">
+                        &copy; 2025 Harsh Bhuva. All rights reserved.
                     </div>
                 </div>
-                <div className="section text-center pt-5">
-                    <h2>FIND ME ON</h2>
-                    <p>Feel free to <span className="purple">connect</span> with me</p>
-                    <div className="social-icons pb-5">
-                        <a href="https://github.com/HarshBhuva319" target='blank'>
-                            <i className="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/harsh-bhuva-4a35371ba/"  target='blank'>
-                            <i className="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://mail.google.com/mail/harshbhuva319@gmail.com" target='blank'>
-                            <i className="fa fa-envelope" ></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </footer>
         </>
     )
 }
